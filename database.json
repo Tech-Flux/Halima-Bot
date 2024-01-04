@@ -1,7 +1,7 @@
 {
   "users": {
     "254739508023@s.whatsapp.net": {
-      "exp": 301,
+      "exp": 310,
       "coin": 0,
       "diamond": 20,
       "bank": 0,
@@ -986,7 +986,7 @@
       "restrict": false,
       "solopv": false,
       "sologp": false,
-      "status": 1704291877531
+      "status": 1704347305789
     }
   }
 }

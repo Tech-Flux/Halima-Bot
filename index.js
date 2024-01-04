@@ -24,8 +24,8 @@ const rl = createInterface(process.stdin, process.stdout)
 const app = express()
 const port = process.env.PORT || 8080;
 
-say('Senna FG98', {
-  font: 'pallet',
+say('Halima Bot', {
+  font: 'chrome',
   align: 'center',
   gradient: ['red', 'magenta']
 })
@@ -94,17 +94,17 @@ async function start(file) {
     try {
     const packageJsonData = await fsPromises.readFile(packageJsonPath, 'utf-8');
     const packageJsonObj = JSON.parse(packageJsonData);
-    console.log(chalk.blue.bold(`\n📦 Información del Paquete`));
-    console.log(chalk.cyan(`Nombre: ${packageJsonObj.name}`));
-    console.log(chalk.cyan(`Versión: ${packageJsonObj.version}`));
-    console.log(chalk.cyan(`Descripción: ${packageJsonObj.description}`));
+    console.log(chalk.blue.bold(`\n📦 Package Information`));
+    console.log(chalk.cyan(`Name: ${packageJsonObj.name}`));
+    console.log(chalk.cyan(`Version: ${packageJsonObj.version}`));
+    console.log(chalk.cyan(`Description: ${packageJsonObj.description}`));
     console.log(chalk.cyan(`Autor: ${packageJsonObj.author.name}`));
   } catch (err) {
-    console.error(chalk.red(`❌ No se pudo leer el archivo package.json: ${err}`));
+    console.error(chalk.red(`❌ The file could not be read package.json: ${err}`));
   }
 
 
-  console.log(chalk.blue.bold(`\n⏰ Hora Actual`));
+  console.log(chalk.blue.bold(`\n⏰ Hours Actual`));
   const currentTime = new Date().toLocaleString('es-ES', { timeZone: 'America/Argentina/Buenos_Aires' })
   //const currentTime = new Date().toLocaleString();
   console.log(chalk.cyan(`${currentTime}`));

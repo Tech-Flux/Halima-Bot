@@ -25,7 +25,7 @@ global.author = 'Halima'
 
 //--info FG
 global.botName = 'Halima'
-global.fgig = 'https://www.instagram.com/fg98_ff' 
+global.fgig = 'https://www.instagram.com/abd.ul.rah.ma.n' 
 global.fgsc = 'https://github.com/x-poison/Halima-Bot' 
 global.fgyt = 'https://youtube.com/@poisonmods'
 global.fgpyp = 'https://t.me/kesandy'

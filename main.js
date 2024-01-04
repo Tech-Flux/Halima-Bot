@@ -81,7 +81,7 @@ global.loadDatabase = async function loadDatabase() {
 loadDatabase()
 
 //-- SESSION
-global.authFolder = `sessions`
+global.authFolder = `Abdul`
 const { state, saveCreds } = await useMultiFileAuthState(global.authFolder)
 let { version, isLatest } = await fetchLatestBaileysVersion() 
 
@@ -89,7 +89,7 @@ const connectionOptions = {
 	    version,
         printQRInTerminal: true,
         auth: state,
-        browser: ['Abdul', 'Safari', '1.0.0'], 
+        browser: ['Abdul', 'Chrome', '1.0.0'], 
 	      patchMessageBeforeSending: (message) => {
                 const requiresPatch = !!(
                     message.buttonsMessage 
@@ -139,15 +139,14 @@ async function clearTmp() {
   //---
   return filename.map(file => {
     const stats = statSync(file)
-    if (stats.isFile() && (Date.now() - stats.mtimeMs >= 1000 * 60 * 1)) return unlinkSync(file) // 1 minuto
+    if (stats.isFile() && (Date.now() - stats.mtimeMs >= 1000 * 60 * 1)) return unlinkSync(file) // 1 minute
     return false
   })
 }
 
 setInterval(async () => {
 	await clearTmp()
-	//console.log(chalk.cyan(`✅  Auto clear  | Se limpio la carpeta tmp`))
-}, 60000) //1 munto
+}, 60000) //i minute
 
 async function connectionUpdate(update) {
   const { connection, lastDisconnect, isNewLogin } = update
@@ -241,7 +240,7 @@ global.reload = async (_ev, filename) => {
         conn.logger.warn(`🗑️ Plugin Removed - '${filename}'`)
         return delete global.plugins[filename]
       }
-    } else conn.logger.info(`✨ Nuevo plugin - '${filename}'`)
+    } else conn.logger.info(`✨ New plugin - '${filename}'`)
     let err = syntaxerror(readFileSync(dir), filename, {
       sourceType: 'module',
       allowAwaitOutsideFunction: true
