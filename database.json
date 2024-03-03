@@ -1,7 +1,7 @@
 {
   "users": {
     "254739508023@s.whatsapp.net": {
-      "exp": 310,
+      "exp": 337,
       "coin": 0,
       "diamond": 20,
       "bank": 0,
@@ -24,7 +24,7 @@
       "premiumTime": 0
     },
     "254798708444@s.whatsapp.net": {
-      "exp": 9983,
+      "exp": 10050,
       "coin": 2700,
       "diamond": 39,
       "bank": 0,
@@ -462,6 +462,29 @@
       "language": "en",
       "prem": false,
       "premiumTime": 0
+    },
+    "916393119123@s.whatsapp.net": {
+      "exp": 34,
+      "coin": 0,
+      "diamond": 20,
+      "bank": 0,
+      "lastclaim": 0,
+      "registered": false,
+      "name": "Lavish 🤍",
+      "age": -1,
+      "regTime": -1,
+      "afk": -1,
+      "afkReason": "",
+      "banned": false,
+      "warn": 0,
+      "level": 0,
+      "role": "Novato",
+      "autolevelup": false,
+      "chatbot": false,
+      "genero": "Indeciso",
+      "language": "en",
+      "prem": false,
+      "premiumTime": 0
     }
   },
   "chats": {
@@ -583,14 +606,31 @@
       "nsfw": false,
       "expired": 0,
       "rules": ""
+    },
+    "120363028865853319@g.us": {
+      "isBanned": false,
+      "welcome": false,
+      "detect": false,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiLink": false,
+      "viewonce": false,
+      "useDocument": true,
+      "captcha": false,
+      "nsfw": false,
+      "expired": 0,
+      "rules": ""
     }
   },
   "stats": {
     "main-menu.js": {
-      "total": 61,
-      "success": 57,
-      "last": 1704291620958,
-      "lastSuccess": 1704291620958
+      "total": 63,
+      "success": 59,
+      "last": 1709450207867,
+      "lastSuccess": 1709450207867
     },
     "maker-logos.js": {
       "total": 9,
@@ -647,10 +687,10 @@
       "lastSuccess": 1704224412664
     },
     "fun-maker.js": {
-      "total": 8,
-      "success": 4,
-      "last": 1704291820326,
-      "lastSuccess": 1704291820326
+      "total": 9,
+      "success": 5,
+      "last": 1709450252147,
+      "lastSuccess": 1709450252147
     },
     "rg-register.js": {
       "total": 9,
@@ -986,7 +1026,7 @@
       "restrict": false,
       "solopv": false,
       "sologp": false,
-      "status": 1704347305789
+      "status": 1709450270457
     }
   }
 }
