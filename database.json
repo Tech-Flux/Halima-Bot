@@ -485,6 +485,52 @@
       "language": "en",
       "prem": false,
       "premiumTime": 0
+    },
+    "254748104985@s.whatsapp.net": {
+      "exp": 223,
+      "coin": 0,
+      "diamond": 20,
+      "bank": 0,
+      "lastclaim": 0,
+      "registered": true,
+      "name": "abdul",
+      "age": 20,
+      "regTime": 1722511966119,
+      "afk": -1,
+      "afkReason": "",
+      "banned": false,
+      "warn": 0,
+      "level": 0,
+      "role": "Novato",
+      "autolevelup": false,
+      "chatbot": false,
+      "genero": "🙆🏻‍♂️ Man",
+      "language": "en",
+      "prem": false,
+      "premiumTime": 0
+    },
+    "254794937426@s.whatsapp.net": {
+      "exp": 40,
+      "coin": 0,
+      "diamond": 20,
+      "bank": 0,
+      "lastclaim": 0,
+      "registered": false,
+      "name": "Natasha 😍",
+      "age": -1,
+      "regTime": -1,
+      "afk": -1,
+      "afkReason": "",
+      "banned": false,
+      "warn": 0,
+      "level": 0,
+      "role": "Novato",
+      "autolevelup": false,
+      "chatbot": false,
+      "genero": "Indeciso",
+      "language": "en",
+      "prem": false,
+      "premiumTime": 0
     }
   },
   "chats": {
@@ -623,14 +669,48 @@
       "nsfw": false,
       "expired": 0,
       "rules": ""
+    },
+    "254748104985@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": false,
+      "detect": false,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiLink": false,
+      "viewonce": false,
+      "useDocument": true,
+      "captcha": false,
+      "nsfw": false,
+      "expired": 0,
+      "rules": ""
+    },
+    "254794937426@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": false,
+      "detect": false,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "delete": true,
+      "antiLink": false,
+      "viewonce": false,
+      "useDocument": true,
+      "captcha": false,
+      "nsfw": false,
+      "expired": 0,
+      "rules": ""
     }
   },
   "stats": {
     "main-menu.js": {
-      "total": 63,
-      "success": 59,
-      "last": 1709450207867,
-      "lastSuccess": 1709450207867
+      "total": 70,
+      "success": 66,
+      "last": 1722511985974,
+      "lastSuccess": 1722511985974
     },
     "maker-logos.js": {
       "total": 9,
@@ -693,10 +773,10 @@
       "lastSuccess": 1709450252147
     },
     "rg-register.js": {
-      "total": 9,
-      "success": 1,
-      "last": 1704291878231,
-      "lastSuccess": 1704211062979
+      "total": 12,
+      "success": 2,
+      "last": 1722511966135,
+      "lastSuccess": 1722511966135
     },
     "rg-sn.js": {
       "total": 2,
@@ -747,10 +827,10 @@
       "lastSuccess": 1704224525746
     },
     "gp-kick.js": {
-      "total": 5,
-      "success": 5,
-      "last": 1704286756613,
-      "lastSuccess": 1704286756613
+      "total": 6,
+      "success": 6,
+      "last": 1722511867136,
+      "lastSuccess": 1722511867136
     },
     "gp-delete.js": {
       "total": 5,
@@ -783,9 +863,9 @@
       "lastSuccess": 1704217845984
     },
     "gp-rules.js": {
-      "total": 4,
+      "total": 5,
       "success": 1,
-      "last": 1704222900781,
+      "last": 1722511879044,
       "lastSuccess": 1704222900781
     },
     "gp-warning.js": {
@@ -1027,6 +1107,14 @@
       "solopv": false,
       "sologp": false,
       "status": 1709450270457
+    },
+    "254748104985@s.whatsapp.net": {
+      "self": false,
+      "autoread": true,
+      "restrict": false,
+      "solopv": false,
+      "sologp": false,
+      "status": 1722511985358
     }
   }
 }

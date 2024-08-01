@@ -605,10 +605,10 @@ global.dfail = (type, m, conn) => {
         private: `📮 Can only be used in dms`,
         admin: `🛡️ Can only be used by Admins`,
         botAdmin: `💥 Am not Admin Here`,
-        unreg: `📇 Successs`,
+        unreg: `📇 Register First!`,
         restrict: '*🔐 That feature is disabled*'
     }[type]
-    if (msg) return conn.sendButton(m.chat, msg, mssg.ig, null, [['🔖 OK', 'khajs'], ['⦙☰ MENU', '/menu'] ], m)
+  //  if (msg) return conn.sendButton(m.chat, msg, mssg.ig, null, [['🔖 OK', 'khajs'], ['⦙☰ MENU', '/menu'] ], m)
     if (msg) return m.reply(msg)
 }
 
