@@ -487,7 +487,7 @@
       "premiumTime": 0
     },
     "254748104985@s.whatsapp.net": {
-      "exp": 223,
+      "exp": 257,
       "coin": 0,
       "diamond": 20,
       "bank": 0,
@@ -707,10 +707,10 @@
   },
   "stats": {
     "main-menu.js": {
-      "total": 70,
-      "success": 66,
-      "last": 1722511985974,
-      "lastSuccess": 1722511985974
+      "total": 71,
+      "success": 67,
+      "last": 1722512867469,
+      "lastSuccess": 1722512867469
     },
     "maker-logos.js": {
       "total": 9,
@@ -1114,7 +1114,7 @@
       "restrict": false,
       "solopv": false,
       "sologp": false,
-      "status": 1722511985358
+      "status": 1722512866999
     }
   }
 }
